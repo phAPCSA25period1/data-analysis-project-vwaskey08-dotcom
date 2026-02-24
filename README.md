@@ -66,12 +66,12 @@ UML_Diagram.png (or UML_Diagram.pdf)
 
 ## 🧩 Step 1 — Choose Your Dataset
 
-**Dataset Name:**  
-**Source / Link:**  
+**Dataset Name: WorldStats
+**Source / Link: https://runestone.academy/ns/books/published/csawesome2/external/_static/datasets/WorldIndicators2000.csv
 
 **What this dataset contains (2–3 sentences):**  
-____________________________________________________________________  
-____________________________________________________________________  
+We are looking at Country name, health expenditures, and infant mortality rates  
+  
 
 ---
 
@@ -80,16 +80,9 @@ ____________________________________________________________________
 Your guiding question should be something you can answer using your dataset.
 
 **My guiding question:**  
+If a country allocates a greater percentage of their gdp to health expenditures, do infant mortality rates decrease  
 ____________________________________________________________________  
-____________________________________________________________________  
 
-Examples:
-
-- "Which Pokémon has the highest HP?"  
-- "What is the average life expectancy in this dataset?"  
-- "Which state had the highest vaccination rate?"  
-
----
 
 ## 🧱 Step 3 — Design Your Class
 
