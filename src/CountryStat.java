@@ -1,21 +1,20 @@
-/**
- * Represents one row from your dataset.
- *
- * TODO:
- *  - Rename the class to match your dataset (e.g., Pokemon, StateData, CountryStat)
- *  - Add at least 3 private attributes based on your CSV columns
- *  - Write a constructor that initializes all attributes
- *  - Add getter methods for the attributes you need in your analysis
- *  - Override toString() to display the object's data
- *  - Add Javadoc comments for the class and all methods
- */
 
+/**
+ * Creates a class for the country stat
+ */
 public class CountryStat {
 
+    //initializes attributes
     private String country;
     private double healthExp;
     private double infantMortality;
 
+    /**
+     * Constructor for CountryStat
+     * @param country
+     * @param healthExp
+     * @param infantMortality
+     */
     public CountryStat(String country, double healthExp, double infantMortality)
     {
         this.country = country;
@@ -23,14 +22,48 @@ public class CountryStat {
         this.infantMortality = infantMortality;
     }
 
+    //getters
 
-    // TODO: Create a constructor that takes all attributes as parameters
+    /**
+     * Getter for country
+     * @return country
+     */
+    public String getCountry()
+    {
+        return country;
+    }
+
+    /**
+     * Getter for healthExp
+     * @return healthExp
+     */
+    public double getHealthExp()
+    {
+        return healthExp;
+    }
+
+    /**
+     * Getter for infantMortality
+     * @return infantMortality
+     */
+    public double getInfantMortality()
+    {
+        return infantMortality;
+    }
 
 
-    // TODO: Add getters for attributes you need
+    @Override
 
-    // TODO: Add other data analysis methods
+    /**
+     * toString method
+     * @return string of toString
+     */
+    public String toString()
+    {
+        return country + " has a " + infantMortality + " infant mortality rate and health expenditures make up " + healthExp + " of GDP.";
+    }
 
-    // TODO: Override toString() to return a readable representation of your object
+
+
 
 }

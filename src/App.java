@@ -17,8 +17,13 @@ public class App {
 
     public static void main(String[] args) {
 
-        // TODO: Update this with your CSV file path
-        File file = new File("data/your_dataset.csv");
+        File file = new File("WorldIndicators2000.csv");
+        Scanner input = new Scanner(file);
+
+        CountryStat [] stats = new CountryStat[2705];
+
+        
+
 
         // TODO: Create an array of Data objects to store data
 
