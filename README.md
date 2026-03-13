@@ -119,9 +119,9 @@ In `Main.java`, you must:
 
 | Attribute Name | CSV Column Name | Column Index # | Notes |
 |----------------|------------------|----------------|-------|
-|                |                  |                |       |
-|                |                  |                |       |
-|                |                  |                |       |
+| country        |   country        |      0          |       |
+| infant mortallity| infant mortality  |      8          |       |
+| health exp          |   health exp % gdp|          12      |       |
 
 ---
 
@@ -138,8 +138,8 @@ You must write **at least two algorithms** to analyze your dataset.
 
 **Algorithms I will implement:**
 
-1. __________________________________________  
-2. __________________________________________  
+1. Correlational coefficient  
+2. Which country has the highest infant mortality rate  
 
 Optional extras:  
 - Sorting  
@@ -159,11 +159,11 @@ After analyzing your objects, print:
 
 **My findings:**  
 ____________________________________________________________________  
-____________________________________________________________________  
+Apparenlty theres is no signigicant correlation  
 ____________________________________________________________________  
 
 **My answer to the guiding question:**  
-____________________________________________________________________  
+There is no significant' correlation between health exp and infant mortality  
 ____________________________________________________________________  
 
 ---
@@ -212,7 +212,7 @@ Write a short reflection (3–5 sentences):
 
 **My reflection:**  
 ____________________________________________________________________  
-____________________________________________________________________  
+It was pretty easy to   
 ____________________________________________________________________  
 ____________________________________________________________________  
 
